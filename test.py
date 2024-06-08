@@ -1,4 +1,3 @@
-name = "Jay Jones"
-
-name2 = name.strip(' ')
-print(name2)
+import os
+password = os.getenv("PASSWORD")
+print(password)
